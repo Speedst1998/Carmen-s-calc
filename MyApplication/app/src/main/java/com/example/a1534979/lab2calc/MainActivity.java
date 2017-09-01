@@ -37,8 +37,8 @@ public class MainActivity extends AppCompatActivity {
         LoanCalculator cal = new LoanCalculator(Double.parseDouble(etAmount.getText().toString()),
                 Integer.parseInt(etTerm.getText().toString()),
                 Double.parseDouble(etInterest.getText().toString()));
-        amountR.setText(cal.getLoanAmount() + "");
-        termR.setText(cal.getMonthlyPayment() + "");
-        interestR.setText(cal.getNumberOfYears() + "");
+        amountR.setText(cal.getMonthlyPayment() + "");
+        termR.setText(cal.getTotalCostOfLoan() + "");
+        interestR.setText(cal.getTotalInterest() + "");
     }
 }
