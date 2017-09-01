@@ -57,7 +57,7 @@
         android:id="@+id/calculate"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:onClick=""
+        android:onClick="calculate"
         android:background= "@color/colorPrimary"
         android:text="@string/calculate" />
 
@@ -65,11 +65,12 @@
         android:id="@+id/clear"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:onClick=""
+        android:onClick="clear"
         android:background= "@color/colorPrimary"
         android:text="@string/clear" />
 
     <TextView
+        android:id="@+id/amountR"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -78,6 +79,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
+        android:id="@+id/termR"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -86,6 +88,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
+        android:id="@+id/interestR"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         app:layout_constraintBottom_toBottomOf="parent"
