@@ -1,3 +1,11 @@
 <resources>
     <string name="app_name">Lab2calc</string>
+    <string name="enter_hint_amount">50000</string>
+    <string name="enter_hint_term">7</string>
+    <string name="enter_hint_interest">7.5</string>
+    <string name="clear">Clear</string>
+    <string name="amount">Loan Amount</string>
+    <string name="term">Term of Loan</string>
+    <string name="interest">Interest Rate</string>
+    <string name="calculate">Calculate</string>
 </resources>
